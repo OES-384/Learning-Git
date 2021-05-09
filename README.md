@@ -55,4 +55,21 @@ List your connections to remote repositories:
 git remote -v
 ```
 ![image](https://user-images.githubusercontent.com/83605634/117583816-2e038b80-b101-11eb-9e02-df9d66ffb57c.png)
+You can know push the changes from your local repository to your remote repository.
+```
+git push -u origin master # master refers to the master branch in the remote repository.
+```
+Check your repository on GitHub. <br>
+First, switch to the master branch:<br>
+![image](https://user-images.githubusercontent.com/83605634/117584310-1d084980-b104-11eb-909f-69c4eff62bbe.png) <br>
+Now, you should see your file!
+
+![image](https://user-images.githubusercontent.com/83605634/117584275-f0ecc880-b103-11eb-896b-dae7d2d7c4d5.png)
+
+### 9- Make changes to your local files
+To see the changes (not staged yet):
+```
+git diff
+```
+![image](https://user-images.githubusercontent.com/83605634/117584627-f3502200-b105-11eb-9a53-b56798c9ca1a.png)
 
