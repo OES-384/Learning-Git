@@ -8,7 +8,7 @@ class Circle:
         self.radius = radius
         self.perimeter = 2*pi*radius
 
-    def get_center():
+    def get_center(self):
         return (self.x, self.y)
     
     def get_perimeter(self):
