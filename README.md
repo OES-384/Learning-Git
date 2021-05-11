@@ -104,9 +104,12 @@ Shortcut to create a new branch and switch to it straight away:
 ```
 git checkout -b feature_branch
 ```
-After modifying your file(s), commit and push to the remote repo:
+After modifying your file(s), stage, commit and push to the remote repo:
 ```
-git commit -am "commit_message"    # using the -a option as a shortcut to "git add" followed by "git commit"
+git add .
+```
+```
+git commit -m "commit_message"
 ```
 ```
 git push -u origin feature_branch
