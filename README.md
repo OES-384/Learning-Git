@@ -9,7 +9,7 @@
 git config --global user.name "username"
 ```
 ```
-git config --global user.email "name@example.com
+git config --global user.email "name@example.com"
 ```
 Check your account details:
 ```
