@@ -45,7 +45,8 @@ git commit -m "My first commit!"
 ```
 ![image](https://user-images.githubusercontent.com/83605634/117583519-7457eb00-b0ff-11eb-8f6a-bfe9d31b0b2e.png)
 ### 8- Push the changes from local repository to remote repository
-We need first to define the remote repository URL.
+We need first to define the remote repository URL.<br>
+Create a GitHub repository.
 <em>Origin</em> is the default name of the remote repository.
 ```
 git remote add origin remote_repo_URL       # replace remote_repo_URL with the actual URL 
