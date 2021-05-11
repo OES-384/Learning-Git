@@ -121,5 +121,12 @@ git checkout master
 ```
 git merge feature_branch
 ```
+
+### 12- Make a change directly in your remote repository and then pull 
+Make a change in your GitHub repository and commit.
+Get the updates into your local working directory.
+```
+git pull origin master
+```
 Done!
 ### That's it for your first steps with Git and GitHub!
